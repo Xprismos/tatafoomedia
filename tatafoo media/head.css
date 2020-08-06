@@ -1,0 +1,301 @@
+:root{
+    --color1:rgb(240, 86, 86);
+}
+body {
+
+    margin: 0;
+    background-color: white;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    align-items: flex-start;
+    background-color: black;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--color1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    box-shadow: 4px 4px 8px black;
+    color: white;
+    
+
+
+}
+
+.sticky {
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
+    width: 100%;
+}
+
+.fixed {
+    display: flex;
+    width: 40px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.du {
+    display: flex;
+    margin-left: 80%;
+    margin-right: 120px;
+    margin-top: -10px;
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+   
+}
+
+.logo>img {
+
+    width: 320px;
+    /* height: ; */
+    margin-right: 10px;
+    margin-top: 4px;
+
+}
+
+
+
+search {
+
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color1)
+
+}
+
+
+.common {
+
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 9px 6px 6px 6px;
+    line-height: 1.1;
+
+}
+
+.homepic {
+
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 8px black;
+
+}
+
+#first {
+
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    
+}
+
+button {
+
+    border-style: solid;
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: 40px;
+    padding: 6px;
+    box-shadow: 4px 4px 8px black;
+    font-size: 12px;
+    
+}
+
+.line {
+
+   margin-bottom: 3px;
+   background-color: black;
+   margin-top: 6px;
+   height : 1px; 
+   width: 96vw;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 4px 4px 8px black;
+
+}
+
+p{
+    margin: 0px;
+}
+
+
+.block{
+
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: stretch;
+    height: 50px;
+    text-align: center;
+    box-shadow: 4px 4px 8px black;
+    margin: 6px 12px 6px 6px;
+
+}
+
+.inner{
+
+    background-color:teal;
+    padding: 6px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.miniimg {
+
+    margin: 3px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.mini {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: teal;
+    margin: 6px 6px 6px 6px;
+    font-size: 20px;
+
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(240, 86, 86);
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+
+}
+
+.sidebar a {
+    padding: 9px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block ;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: burlywood;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 10px 10px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: darkgreen;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+
+}
+
+
+
+
+
+footer {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 4px;
+    font-size: 25px;
+}
+
+
+
+
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    position: relative;
+    margin-left: 12px;
+}
+
+input[type=submit]{
+    margin: 0em;
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(13, 136, 207);
+    border: 5px solid rgb(13, 136, 207) ;
+    border-radius: 2px;
+}
+
+textarea {
+    height: 114px;
+    width: 221px;
+}
